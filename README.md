@@ -1,2 +1,2 @@
 # Codility Challenges
-## Here are answers to the first 8 Codility Lessons
+Here are my answers to the first 8 Codility Lessons
