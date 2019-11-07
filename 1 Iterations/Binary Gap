@@ -25,13 +25,16 @@ int solution(int N) {
     while (i<32){    
         if((array[i]==1) && (array[i+1]==1)){
         }
+        /*condition for entering a bit gap*/
         else if((array[i]==1) && (array[i+1]==0)){
             state=1;
             current=0;
         }
+        /*condition while within a bit gap*/
         else if((array[i]==0) && (array[i+1]==0) && (state==1)){
                 current++;
         }
+        /*condition on leaving a bit gap*/
         else if((array[i]==0) && (array[i+1]==1) && (state==1)){
                 current++;
                 state=0;
