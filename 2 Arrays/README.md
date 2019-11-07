@@ -1,6 +1,6 @@
 # Arrays
 
-This topic has two challenges, the pre-challenge material that Codility provides for iterations can be found here [https://codility.com/media/train/0-Arrays.pdf](https://codility.com/media/train/0-Arrays.pdf).
+This topic has two challenges, the pre-challenge material that Codility provides for arrays can be found here [https://codility.com/media/train/0-Arrays.pdf](https://codility.com/media/train/0-Arrays.pdf).
 
 
 ## OddOccurrencesInArray
