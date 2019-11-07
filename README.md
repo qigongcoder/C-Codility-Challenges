@@ -1,2 +1,2 @@
-# C-Codility-Challenges
-Here are answers to the Codility Lessons
+# Codility Challenges
+## Here are answers to the first 8 Codility Lessons
