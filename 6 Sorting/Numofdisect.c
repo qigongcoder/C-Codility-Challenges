@@ -36,4 +36,4 @@ int solution(int A[], int N) {
     for(i=1;i<N;i++)
         PRL[i]=PRL[i-1]+LHO[i];
  
-//Caclulate Thickness
+

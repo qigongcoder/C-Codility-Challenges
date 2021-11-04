@@ -1,5 +1,3 @@
-// you can write to stdout for debugging purposes, e.g.
-// printf("this is a debug message\n");
 
 int mod(int a){
     if(a<0)
@@ -13,22 +11,15 @@ int solution(int A[], int N) {
     
     for(i=0;i<N;i++)
         Total+=A[i];
-//    printf("Total %ld\n",Total);
 
-//first_diff=mod(LHS-RHS)
     min_diff=mod(A[0]-(Total-A[0]));
-//    printf("min_diff %ld\n",min_diff);
     
     for(i=0;i<(N-1);i++){
 
         Total-=A[i];
-//        printf("Total %ld\n",Total);
         LHS+=A[i];
-//        printf("LHS %ld\n",LHS);
 
-//cur_diff=mod(LHS-RHS)
         cur_diff=mod(LHS-Total);
-//        printf("cur_diff %ld\n",cur_diff);
 
         if(cur_diff<min_diff)
             min_diff=cur_diff;

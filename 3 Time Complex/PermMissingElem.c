@@ -5,9 +5,7 @@ int solution(int A[], int N) {
     int i;
         
     tvalue=((1+(long)N)*(2+(long)N))>>1;
-    
-//concern here, if N==0, then does A[i] exist so can I
-//add it to sum? If not, then just do N==0 test
+   
 
     for(i=0;i<N;i++)
         sum+=A[i];
