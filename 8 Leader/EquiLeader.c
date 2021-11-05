@@ -8,15 +8,8 @@ int solution(int A[], int N) {
     int sorted[N];
     int count=0;
     int leader;
-//    int location=0;
 
     int i=0;
-/*
-    printf("A[i] ");
-    for(i=0;i<N;i++)
-        printf("%d ",A[i]);
-    printf("\n");
-*/
     
     if(N==0)
         return -1;
@@ -45,6 +38,5 @@ int solution(int A[], int N) {
     }
     
     return -1;
-//    return location;
         
 }

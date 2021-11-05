@@ -5,7 +5,6 @@ int solution(char *S) {
     
     int i,k;
     
-//length of string        
     l=S;
     while( *l != '\0'){
         length++;
