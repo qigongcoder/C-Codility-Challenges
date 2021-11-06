@@ -1,3 +1,14 @@
+/*
+An array A consisting of N integers is given. Rotation of the array means
+that each element is shifted right by one index, and the
+last element of the array is moved to the first place.
+
+For example, the rotation of array A = [3, 8, 9, 7, 6] is [6, 3, 8, 9, 7].
+
+Write a function that, given an array A consisting of N integers and an
+integer K, returns the array A rotated K times.
+*/
+
 struct Results solution(int A[], int N, int K) {
     struct Results result;
 
@@ -30,6 +41,6 @@ struct Results solution(int A[], int N, int K) {
         result.A[i]=newarr[i];
     }
  
-    result.N = N;
+     result.N = N;
     return result;
 }
