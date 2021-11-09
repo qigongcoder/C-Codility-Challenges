@@ -19,7 +19,3 @@ The link for the detailed instructions can be found at [https://app.codility.com
 
 The link for the detailed instructions can be found at [https://app.codility.com/programmers/lessons/6-sorting/triangle/](https://app.codility.com/programmers/lessons/6-sorting/triangle/).
 
-## 4 NumberOfDiscIntersections
-*Compute the number of intersections in a sequence of discs.*
-
-The link for the detailed instructions can be found at [https://app.codility.com/programmers/lessons/6-sorting/number_of_disc_intersections/](https://app.codility.com/programmers/lessons/6-sorting/number_of_disc_intersections/).
